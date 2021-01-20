@@ -1,0 +1,768 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik:300,400,500,600,700&display=swap');
+
+
+
+* {padding:0;margin:0;box-sizing:border-box;}
+
+html {
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* .yues2 {
+       display: none;
+    } */
+
+body {
+    /* background-image: url(background.png); */
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.navHead .logo {
+	width: 4rem;
+	padding-top: 1rem;
+}
+.row .col-md-3.col-md-offset- .logo {
+}
+.row .col-md-3.col-md-offset- .logo {
+}
+
+
+
+.workhead {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 250%;
+  text-align: left;
+  line-height: 1em;
+  color: white;
+}
+
+.navHead {
+    background-color: black;
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.navHead ul {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.navHead ul li {
+    display: inline-block;
+    float: left;
+    text-align: right;
+    padding-left: 60px;
+    padding-right: 16px;
+    padding-top: 2.25rem;
+}
+
+.navHead a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.navHead a:hover {
+    color: white;
+}
+
+.navHead li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #01FF8B;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.navHead li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navHead .current {
+    color: #01FF8B;
+}
+
+
+.header {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: left;
+    line-height: 200%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.headerWork {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: left;
+    line-height: 3em;
+    color: white;
+}
+
+.story {
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.pageContent {
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+    padding-top: 2rem;
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.whoAmI {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    margin-bottom: 0px;
+    padding-top: 0.4em;
+}
+
+.whoIam {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    color: black;
+    padding: 0;
+    margin-top: 0.8em;
+    padding-bottom: 25px;
+}
+
+.recents {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    line-height: 2em;
+    padding-top: 0.2em;
+}
+
+.select {
+    height: 100%;
+    overflow: hidden;
+}
+.select2 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.contentHeader {
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+
+/*
+.workTitle ul {
+  list-style-type: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 4em;
+  line-height: 2em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.8em;
+}
+
+.workTitle ul li {
+    padding-left: 60px;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.workTitle li a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.workTitle li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #018BFF;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.workTitle li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+*/
+.goBack ul {
+    
+  list-style-type: none;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  line-height: em;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.goBack ul li {
+   
+    padding-left: 0.4em;
+    padding-right: 1rem;
+    padding-top: 3.5rem;
+}
+
+.goBack li a {
+     
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.goBack li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #018BFF;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.goBack li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.yues, .yues2 {
+    width: 100%;
+    margin-left: 0px;
+    transition: transform .2s ease;
+    padding-bottom: 0px;
+}
+
+.yues:hover, .yues2:hover {
+    transform: scale(0.95);
+}
+
+.wallpaper {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.merch {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.questLog {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 200%
+}
+
+.quest2Titlepage2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.quest2Titlepage2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.quest2Titlepage2 a:hover {
+     color: hotpink;
+}
+
+.quests {
+    font-family: 'Rubik', sans-serif;
+    font-size: 120%;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.quest2Title {
+     font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 175%;
+    padding-bottom: 1rem;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.quest2Title a {
+    color: black;
+    text-decoration: none;
+}
+
+.quest2Title a:hover {
+     color: hotpink;
+}
+
+.quest1Write {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    margin-top: 0px;
+    padding-bottom: 5px;
+
+}
+
+.quest1Read .more {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 102%;
+}
+
+.more a {
+    position: relative;
+    color: black;
+    text-decoration: none;
+}
+
+.more a:hover {
+    color: black;
+}
+
+.more a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: hotpink;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.more a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.twitter-timeline {
+    margin-top: 100px;
+    padding-top: 100px;
+    top: 100px;
+    float: right;
+}
+
+.twitter {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+.logPaper {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.logPaperDate {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 0px;
+}
+
+.logPaperTitle {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.logPaperTools {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.latestTitle {
+    padding-top: 1rem;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1em;
+    text-align: left;
+}
+
+.theMission {
+    padding-top: 3em;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logPaperList {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+}
+
+.logPaperWrite {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+
+.logPaperWrite a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.logPaperWrite a:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hotpink;
+}
+
+.ducklogo {
+  width: auto;
+  height: 13em;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  padding-top: 6em;
+}
+
+.screens {
+  width: 100%;
+  height: auto;
+  padding-top: 1em;
+padding-bottom: 1.5em;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+
+}
+
+.video iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.panels {
+  width: 125%;
+  height: auto;
+  padding-top: 1.5em;
+}
+
+.burgernav {
+  position: absolute;
+   width: 3rem;
+   top: 10px;
+   padding-right: 16px;
+}
+
+.sidebar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #01FF8B;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.sidebar a:hover:before {
+  visibility: hidden;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  background-blend-mode: screen;
+}
+
+.sidebar a {
+   text-align: center;
+   margin-bottom: 16px;
+   padding-top: 8px;
+   padding-bottom: 24px;
+   padding-left: 32px;
+   padding-right: 32px;
+   text-decoration: none;
+   font-size: 3rem;
+   color: white;
+   display: block;
+   font-family: 'Rubik', sans-serif;
+   font-weight: 600;
+   line-height: 5rem;
+ }
+
+ .sidebar a:hover {
+color: #01FF8B;
+     -webkit-transform: scaleX (1) ;
+     transform: scaleX(1) ease ;
+     -webkit-transition: all (0.3s) ease 0.2s ;
+     transition: all (0.3s) ease 0.2s;
+}
+
+.sidebar .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 25px;
+}
+
+.openbtn {
+ font-size: 20px;
+ cursor: pointer;
+ background-color: white;
+ color: white;
+ padding: 0px 0px;
+ border: none;
+}
+
+.openbtn:hover {
+ background-color: white;
+}
+
+#main {
+  transition: margin-right .5s;
+  padding-right: 0px;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.80rem;
+}
+
+footer {
+    margin-left: 0px;
+}
+
+.desktopigfeed {
+width: 50%;
+}
+
+.bannersTitle {
+    padding-top: 2em;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 0px;
+    transition: transform .5s ease;
+}
+
+.bannersTitle:hover {
+    transform: scale(1.1);
+}
+
+
+.socials {
+    width: 2rem;
+    height: auto;
+}
+
+
+
+.plotArmorBanner .headBanner {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    width: 100%;
+    position: relative;
+}
+
+.headVideo {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.PA_logo {
+    width: 100%;
+    height: auto;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mobile*/
+@media screen and (max-width: 1280px) {
+  .desktopigfeed {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1279px) {
+  .tabletigfeed {
+    display:none;
+  }
+  .mobileigfeed {
+    display:none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .burgernav {
+    display: none;
+  }
+  .mobileigfeed {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+    .navHead {
+        margin: auto;
+        padding-right: 800px;
+    }
+
+    .header {
+        font-size: 200%;
+    }
+
+    .story {
+        margin: auto;
+        padding-right: 800px;
+    }
+
+    .pageContent {
+        margin: auto;
+        padding-right: 800px;
+    }
+
+    .yues2 {
+       display: none;
+    }
+
+    .navHead ul {
+        display: none;
+    }
+
+    .twitter {
+        display: none;
+    }
+
+    .burgernav {
+      right: 0px;
+    }
+
+.tabletigfeed {
+  display: none;
+}
+
+    .bannersTitle {
+        display: none;
+    }
+
+}
