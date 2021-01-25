@@ -16,7 +16,7 @@ html {
 
 body {
     /* background-image: url(background.png); */
-    background-color: black;
+    background-color: white;
     width: 100%;
     margin: auto;
     background-size: 100%;
@@ -25,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    height: auto;
 }
 
 .navHead .logo {
@@ -143,7 +144,7 @@ body {
     margin: 0px;
     padding-top: 2rem;
     padding-bottom: 30px;
-    height: 100%;
+    height: auto;
 }
 
 .whoAmI {
@@ -188,6 +189,11 @@ body {
     font-weight: 400;
     line-height: 2rem;
     margin-top: 4rem;
+}
+
+.divider {
+    margin: auto;
+    width: 90%;
 }
 
 /*
@@ -632,6 +638,7 @@ footer p {
 
 footer {
     margin-left: 0px;
+    bottom: 0;
 }
 
 .desktopigfeed {
