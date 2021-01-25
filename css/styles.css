@@ -18,6 +18,7 @@ body {
     /* background-image: url(background.png); */
     background-color: white;
     width: 100%;
+    height: 100%;
     margin: auto;
     background-size: 100%;
     background-attachment: fixed;
@@ -29,8 +30,8 @@ body {
 }
 
 .navHead .logo {
-	width: 4rem;
-	padding-top: 1rem;
+	width: 3rem;
+	padding-top: 0.25rem;
 }
 .row .col-md-3.col-md-offset- .logo {
 }
@@ -70,7 +71,7 @@ body {
     text-align: right;
     padding-left: 60px;
     padding-right: 16px;
-    padding-top: 2.25rem;
+    padding-top: 1rem;
 }
 
 .navHead a {
@@ -123,10 +124,10 @@ body {
 .headerWork {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1rem;
     text-align: left;
     line-height: 3em;
-    color: white;
+    color: black;
 }
 
 .story {
@@ -142,7 +143,7 @@ body {
     background-color: white;
     width: 100%;
     margin: 0px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 30px;
     height: auto;
 }
@@ -184,7 +185,6 @@ body {
 
 .contentHeader {
     font-family: 'Rubik', sans-serif;
-    text-align: left;
     font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
@@ -246,7 +246,6 @@ body {
   list-style-type: none;
   font-family: 'Rubik', sans-serif;
   font-size: 2em;
-  line-height: em;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -256,13 +255,12 @@ body {
    
     padding-left: 0.4em;
     padding-right: 1rem;
-    padding-top: 3.5rem;
 }
 
 .goBack li a {
      
   text-decoration: none;
-  color: white;
+  color: black;
   position: relative;
 }
 
