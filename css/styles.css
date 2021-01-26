@@ -196,7 +196,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
-    line-height: 1.5vw;
+    line-height: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -204,7 +204,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 1.25vw;
+    line-height: 1.5rem;
     margin-top: 1rem;
 }
 
@@ -212,14 +212,14 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
-    line-height: 1.5vw;
+    line-height: 1.5rem;
 }
 
 .contentHeaderRight{
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 1.25vw;
+    line-height: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -227,7 +227,7 @@ body {
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     font-weight: 400;
-    line-height: 2vw;
+    line-height: 2rem;
 }
 
 .gif_process {
@@ -275,6 +275,47 @@ body {
   margin-top: 0px;
     margin-left: 2.5rem;
 }
+
+
+.logPaperTools_four {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 3.5rem;
+}
+
+.logPaperList_four {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+    margin-left: 3.5rem;
+}
+
+.logPaperTools_five {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    
+}
+
+.logPaperList_five {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+    margin-left: 4rem;
+}
+
 
 .gif_videos_resize {
     
@@ -595,7 +636,8 @@ body {
 .banner {
   width: 100%;
   height: auto;
-  padding-top: 6em;
+  padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .screens {
@@ -801,6 +843,35 @@ width: 50%;
 
 
 
+@media screen and (max-width: 1900px) {
+    .gif_process {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .gif_process {
+        width: 625px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .gif_process {
+        width: 575px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .gif_process {
+        width: 535px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .gif_process {
+        width: 450px;
+    }
+}
 
 
 /*mobile*/
@@ -808,16 +879,14 @@ width: 50%;
   .desktopigfeed {
     display: none;
   }
-  .logPaperTools_two, .logPaperTools_three {
+  .logPaperTools_two, .logPaperTools_three, .logPaperTools_four, .logPaperTools_five {
     font-size: 1rem;
 }
-    .logPaperList_two, .logPaperList_three {
+    .logPaperList_two, .logPaperList_three, .logPaperList_four, .logPaperList_five {
   font-size: 0.75rem;
+        line-height: 1rem;
 }
-    .gif_process {
-        width: 535px;
-        height: auto;
-    }
+   
    
     
     .contentHeader {
