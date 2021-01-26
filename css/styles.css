@@ -142,7 +142,7 @@ body {
 
 .pageContent {
     background-color: white;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 30px;
@@ -244,13 +244,13 @@ body {
     margin-top: 4rem;
     margin-bottom: 0px;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25vw;
     font-weight: 700;
 }
 
 .logPaperList_two {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.80vw;
   line-height: 2em;
   margin-top: 0px;
 }
@@ -261,19 +261,22 @@ body {
     margin-top: 4rem;
     margin-bottom: 0px;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25vw;
     font-weight: 700;
     margin-left: 2.5rem;
 }
 
 .logPaperList_three {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 0.80vw;
   line-height: 2em;
   margin-top: 0px;
     margin-left: 2.5rem;
 }
 
+.gif_videos_resize {
+    
+}
 
 .divider {
     margin: auto;
