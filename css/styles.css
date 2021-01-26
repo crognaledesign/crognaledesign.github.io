@@ -191,6 +191,89 @@ body {
     margin-top: 4rem;
 }
 
+.contentHeaderPara {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.contentHeaderSub {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.contentHeaderLeft {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.contentHeaderRight{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.contentHeaderTitle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.gif_process {
+    margin-top: 4rem;
+}
+.gif_process_two {
+    margin-top: 18rem;
+    margin-left: 2rem;
+}
+
+.logPaperTools_two {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logPaperList_two {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+}
+
+.logPaperTools_three {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 2.5rem;
+}
+
+.logPaperList_three {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+    margin-left: 2.5rem;
+}
+
+
 .divider {
     margin: auto;
     width: 90%;
@@ -684,8 +767,6 @@ width: 50%;
     margin-left: 6rem;
     margin-bottom: 1rem;
 }
-
-
 
 
 
