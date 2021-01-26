@@ -194,7 +194,7 @@ body {
 
 .contentHeaderPara {
     font-family: 'Rubik', sans-serif;
-    font-size: 1vw;
+    font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5vw;
     margin-top: 1rem;
@@ -202,7 +202,7 @@ body {
 
 .contentHeaderSub {
     font-family: 'Rubik', sans-serif;
-    font-size: 1vw;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.25vw;
     margin-top: 1rem;
@@ -210,14 +210,14 @@ body {
 
 .contentHeaderLeft {
     font-family: 'Rubik', sans-serif;
-    font-size: 1vw;
+    font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.5vw;
 }
 
 .contentHeaderRight{
     font-family: 'Rubik', sans-serif;
-    font-size: 0.85vw;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.25vw;
     margin-top: 2rem;
@@ -225,7 +225,7 @@ body {
 
 .contentHeaderTitle {
     font-family: 'Rubik', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 2vw;
 }
@@ -250,7 +250,7 @@ body {
 
 .logPaperList_two {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.80vw;
+  font-size: 0.90vw;
   line-height: 2em;
   margin-top: 0px;
 }
@@ -268,7 +268,7 @@ body {
 
 .logPaperList_three {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.80vw;
+  font-size: 0.90vw;
   line-height: 2em;
   margin-top: 0px;
     margin-left: 2.5rem;
@@ -819,6 +819,13 @@ width: 50%;
 }
 
 @media screen and (min-width: 768px) {
+      .logPaperTools_two .logPaperTools_three {
+    font-size: 1rem;
+}
+  .logPaperList_two .logPaperList_three {
+  font-size: 1rem;
+}
+    
   .burgernav {
     display: none;
   }
@@ -846,9 +853,11 @@ width: 50%;
         padding-right: 800px;
     }
 
+    
     .logPaperTools_two .logPaperTools_three {
-        width: auto;
-    }
+    font-size: 1rem;
+}
+    
     
     .yues2 {
        display: none;
