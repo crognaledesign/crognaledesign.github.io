@@ -28,6 +28,8 @@ body {
     height: auto;
 }
 
+
+
 .navHead .logo {
 	width: 3rem;
 	padding-top: 0.25rem;
@@ -192,40 +194,40 @@ body {
 
 .contentHeaderPara {
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85vw;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 1.05vw;
     margin-top: 1rem;
 }
 
 .contentHeaderSub {
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85vw;
     font-weight: 500;
-    line-height: 2rem;
-    margin-top: 2rem;
+    line-height: 1.25vw;
+    margin-top: 1rem;
 }
 
 .contentHeaderLeft {
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85vw;
     font-weight: 300;
-    line-height: 2rem;
+    line-height: 1.25vw;
 }
 
 .contentHeaderRight{
     font-family: 'Rubik', sans-serif;
-    font-size: 1rem;
+    font-size: 0.85vw;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 1.25vw;
     margin-top: 2rem;
 }
 
 .contentHeaderTitle {
     font-family: 'Rubik', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-weight: 400;
-    line-height: 2rem;
+    line-height: 2vw;
 }
 
 .gif_process {
@@ -841,6 +843,10 @@ width: 50%;
         padding-right: 800px;
     }
 
+    .logPaperTools_two .logPaperTools_three {
+        width: auto;
+    }
+    
     .yues2 {
        display: none;
     }
