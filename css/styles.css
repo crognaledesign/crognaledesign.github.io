@@ -869,6 +869,8 @@ width: 50%;
     
 }
 
+
+
 @media screen and (min-width: 1279px) {
   .tabletigfeed {
     display:none;
@@ -882,9 +884,24 @@ width: 50%;
   .logPaperList_two .logPaperList_three {
   font-size: 1.5rem;
 }
-    
-    
+   
 }
+
+
+@media screen and (max-width: 1000px) {
+    .gif_process {
+        display: none;
+    }
+
+    .headVideo {
+        display: none;
+    }
+    
+   
+}
+
+
+
 
 @media screen and (min-width: 768px) {
       .logPaperTools_two .logPaperTools_three {
@@ -907,6 +924,10 @@ width: 50%;
         padding-right: 800px;
     }
 
+    .gif_process {
+        display: none;
+    }
+    
     .header {
         font-size: 200%;
     }
@@ -923,7 +944,7 @@ width: 50%;
 
     
     .logPaperTools_two .logPaperTools_three {
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
     
     
@@ -949,6 +970,10 @@ width: 50%;
 
     .bannersTitle {
         display: none;
+    }
+    
+    .goBack {
+        font-size: 0.5rem;
     }
 
 }
