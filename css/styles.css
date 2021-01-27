@@ -53,7 +53,9 @@ body {
 .navHead {
     background-color: black;
     width: 100%;
-    padding: 5px 5px;
+    padding-top: 1rem;
+    padding-left: 5px;
+    padding-bottom: 0;
 }
 
 .navHead ul {
@@ -144,7 +146,7 @@ body {
     background-color: white;
     width: 100%;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 30px;
     height: auto;
 }
@@ -228,6 +230,10 @@ body {
     font-size: 2rem;
     font-weight: 400;
     line-height: 2rem;
+}
+
+.contentHeaderMobile {
+    
 }
 
 .gif_process {
@@ -671,7 +677,7 @@ padding-bottom: 1.5em;
 .burgernav {
   position: absolute;
    width: 3rem;
-   top: 10px;
+   top: 1.5rem;
    padding-right: 16px;
 }
 
@@ -758,6 +764,7 @@ color: #01FF8B;
 #main {
   transition: margin-right .5s;
   padding-right: 0px;
+    width: 3rem;
 }
 
 footer p {
@@ -813,7 +820,7 @@ width: 50%;
 .PA_logo {
     width: 100%;
     height: auto;
-    margin-left: 6rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -847,12 +854,38 @@ width: 50%;
     .gif_process {
         width: 700px;
     }
+    
+    
 }
+
+@media screen and (max-width: 1700px) {
+    .gif_process {
+        width: 700px;
+    }
+    
+    .logPaperTitle {
+        font-size: 3rem;
+        padding-top: 0.65rem;
+    }
+    
+    logPaperDate {
+        
+    }
+    
+}
+
+
 
 @media screen and (max-width: 1650px) {
     .gif_process {
         width: 625px;
     }
+    
+     .logPaperTitle {
+        font-size: 2.5rem;
+        padding-top: 0.80rem;
+    }
+    
 }
 
 @media screen and (max-width: 1460px) {
@@ -953,6 +986,7 @@ width: 50%;
   .logPaperList_two .logPaperList_three {
   font-size: 1.5rem;
 }
+    
    
 }
 
@@ -968,6 +1002,7 @@ width: 50%;
     
    
 }
+
 
 
 
@@ -997,6 +1032,10 @@ width: 50%;
         display: none;
     }
     
+    .contentHeader {
+        display: none;
+    }
+    
     .header {
         font-size: 200%;
     }
@@ -1009,6 +1048,10 @@ width: 50%;
     .pageContent {
         margin: auto;
         padding-right: 800px;
+    }
+    
+    .goBack {
+        display: none;
     }
 
     
