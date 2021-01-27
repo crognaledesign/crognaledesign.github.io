@@ -407,7 +407,7 @@ body {
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #018BFF;
+  background-color: #4C00FF;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -567,7 +567,7 @@ body {
 }
 
 .logPaperTitle {
-    padding-top: 2px;
+    padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -631,7 +631,7 @@ body {
 .logPaperWrite a:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: hotpink;
+    color: #4C00FF;
 }
 
 .ducklogo {
@@ -865,11 +865,17 @@ width: 50%;
     
     .logPaperTitle {
         font-size: 3rem;
-        padding-top: 0.65rem;
+        padding-top: 0rem;
     }
     
-    logPaperDate {
-        
+    .logPaperWrite {
+        margin-top: 0.75rem;
+    }
+    
+    .ducklogo {
+    width: auto;
+  height: 11rem;
+        margin-top: 2.5rem;
     }
     
 }
@@ -883,14 +889,30 @@ width: 50%;
     
      .logPaperTitle {
         font-size: 2.5rem;
-        padding-top: 0.80rem;
+        padding-top: 0rem;
     }
+    
+    .logPaperWrite {
+        margin-top: 0.5rem;
+    }
+    
+          .logPaperTools_two, .logPaperTools_three, .logPaperTools_four, .logPaperTools_five {
+    font-size: 1.15rem;
+}
+    .logPaperList_two, .logPaperList_three, .logPaperList_four, .logPaperList_five {
+  font-size: 0.90rem;
+        line-height: 1.45rem;
+}
     
 }
 
 @media screen and (max-width: 1460px) {
     .gif_process {
         width: 575px;
+    }
+    
+    .header {
+        font-size: 2rem;
     }
 }
 
@@ -899,15 +921,29 @@ width: 50%;
         width: 535px;
     }
     
-    .logPaperTitle {
-        font-size: 1.75rem;
-        padding-top: 0.80rem;
-    }
+      .logPaperTools_two, .logPaperTools_three, .logPaperTools_four, .logPaperTools_five {
+    font-size: 1.25rem;
+}
+    .logPaperList_two, .logPaperList_three, .logPaperList_four, .logPaperList_five {
+  font-size: 0.75rem;
+        line-height: 1.25rem;
+}
+    
+    
 }
 
 @media screen and (max-width: 1240px) {
     .gif_process {
         width: 450px;
+    }
+    
+    .logPaperTitle {
+        font-size: 1.75rem;
+        padding-top: 0rem;
+    }
+    
+    .logPaperWrite {
+        margin-top: 0.0rem;
     }
 }
 
