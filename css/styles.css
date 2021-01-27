@@ -898,6 +898,11 @@ width: 50%;
     .gif_process {
         width: 535px;
     }
+    
+    .logPaperTitle {
+        font-size: 1.75rem;
+        padding-top: 0.80rem;
+    }
 }
 
 @media screen and (max-width: 1240px) {
