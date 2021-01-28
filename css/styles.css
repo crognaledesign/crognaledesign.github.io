@@ -33,6 +33,7 @@ body {
 .navHead .logo {
 	width: 3rem;
 	padding-top: 0.25rem;
+    
 }
 .row .col-md-3.col-md-offset- .logo {
 }
@@ -56,6 +57,7 @@ body {
     padding-top: 1rem;
     padding-left: 5px;
     padding-bottom: 0;
+   
 }
 
 .navHead ul {
@@ -134,11 +136,11 @@ body {
 }
 
 .story {
-    background-color: whitesmoke;
+    background-color: #F5F5F5;
     width: 100%;
     margin: 0px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 
 }
 
@@ -228,7 +230,7 @@ body {
 .contentHeaderTitle {
     font-family: 'Rubik', sans-serif;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 2rem;
 }
 
