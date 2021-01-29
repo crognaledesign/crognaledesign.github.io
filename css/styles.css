@@ -1129,7 +1129,15 @@ width: 50%;
         margin: auto;
         padding-right: 800px;
     }
-
+    
+    /* .contentHeaderParaIndex {
+        display: none;
+    }
+    
+    .contentHeaderTitleIndex {
+        display: none;
+    } */
+    
     .gif_process {
         display: none;
     }
@@ -1144,12 +1152,12 @@ width: 50%;
 
     .story {
         margin: auto;
-        padding-right: 800px;
+        /* padding-right: 800px; */
     }
 
     .pageContent {
         margin: auto;
-        padding-right: 800px;
+        /* padding-right: 800px; */
     }
     
     .goBack {
@@ -1188,6 +1196,14 @@ width: 50%;
     
     .goBack {
         font-size: 0.5rem;
+    }
+    
+    .yues {
+        margin-top: 2rem;
+    }
+    
+    .latestTitle {
+        display:none;
     }
 
 }
