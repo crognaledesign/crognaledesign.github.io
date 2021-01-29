@@ -201,6 +201,14 @@ body {
     margin-top: 4rem;
 }
 
+.contentHeaderTwo {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 4rem;
+}
+
 .contentHeaderPara {
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
@@ -1099,17 +1107,11 @@ width: 50%;
   .logPaperList_two .logPaperList_three {
   font-size: 1.5rem;
 }
-    
-   
 }
 
 
 @media screen and (max-width: 1000px) {
     .gif_process {
-        display: none;
-    }
-
-    .headVideo {
         display: none;
     }
     
@@ -1119,6 +1121,11 @@ width: 50%;
     
     .yues2 {
         margin-top: 1rem;
+    }
+    
+    .PA_logo {
+        margin-top: 2rem;
+        
     }
 }
 
@@ -1145,6 +1152,8 @@ width: 50%;
         display: none;
     }
     
+   
+    
 }
 @media screen and (max-width: 767px) {
     .navHead {
@@ -1166,9 +1175,9 @@ width: 50%;
         display: none;
     }
     
-    /* .contentHeader {
-        display: none;
-    } */
+    .contentHeader {
+        margin-top: 0.05rem;
+    }
     
     .header {
         font-size: 200%;
@@ -1234,5 +1243,8 @@ width: 50%;
         display: none;
     }
 
+    .PA_logo {
+        display: none;
+    }    
     
 }
