@@ -29,6 +29,11 @@ body {
 }
 
 
+.jersey {
+    width: 100%;
+    height: auto;
+}
+
 
 .navHead .logo {
 	width: 3rem;
@@ -204,6 +209,14 @@ body {
     margin-top: 1rem;
 }
 
+.contentHeaderParaIndex {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
 .contentHeaderSub {
     font-family: 'Rubik', sans-serif;
     font-size: 1.25rem;
@@ -232,6 +245,14 @@ body {
     font-size: 2rem;
     font-weight: 700;
     line-height: 2rem;
+}
+
+.contentHeaderTitleIndex {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 1rem;
 }
 
 .contentHeaderMobile {
@@ -324,6 +345,44 @@ body {
     margin-left: 4rem;
 }
 
+.logPaperTools_six {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 3.5rem;
+}
+
+.logPaperList_six {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+    margin-left: 3.5rem;
+}
+
+.logPaperTools_seven {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 4rem;
+    
+}
+
+.logPaperList_seven {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  line-height: 2em;
+  margin-top: 0px;
+    margin-left: 4rem;
+}
 
 .gif_videos_resize {
     
