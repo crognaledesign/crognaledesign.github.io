@@ -898,6 +898,7 @@ width: 50%;
 }
 
 .PA_logo {
+    margin-top: 3rem;
     width: 100%;
     height: auto;
     margin-left: 1rem;
@@ -1124,8 +1125,7 @@ width: 50%;
     }
     
     .PA_logo {
-        margin-top: 2rem;
-        
+        margin-top: 2rem;     
     }
 }
 
