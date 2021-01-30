@@ -1284,4 +1284,8 @@ width: 50%;
         height: auto;
     }
     
+    .logPaperWrite_two {
+        display: none;
+    }
+    
 }
