@@ -664,6 +664,16 @@ body {
     font-weight: 700;
 }
 
+.logPaperTools_version {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .latestTitle {
     padding-top: 1rem;
     padding-bottom: 0px;
@@ -711,7 +721,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 .logPaperWrite a{
@@ -1017,7 +1027,7 @@ width: 50%;
 
 @media screen and (max-width: 1350px) {
     .gif_process {
-        width: 535px;
+        width: 500px;
     }
     
       .logPaperTools_two, .logPaperTools_three, .logPaperTools_four, .logPaperTools_five {
@@ -1131,7 +1141,7 @@ width: 50%;
 
 @media screen and (max-width: 1000px) {
     .gif_process {
-        display: none;
+        width: 100%;
     }
     
     .yues {
@@ -1194,7 +1204,7 @@ width: 50%;
     } */
     
     .gif_process {
-        display: none;
+        width: 100%;
     }
     
     .contentHeader {
