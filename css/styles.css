@@ -193,6 +193,11 @@ body {
     overflow: hidden;
 }
 
+.select3 {
+    height: 100%;
+    overflow: hidden;
+}
+
 .contentHeader {
     font-family: 'Rubik', sans-serif;
     font-size: 1rem;
@@ -802,7 +807,7 @@ padding-bottom: 1.5em;
    display: block;
    font-family: 'Rubik', sans-serif;
    font-weight: 600;
-   line-height: 5rem;
+   line-height: 8rem;
  }
 
  .sidebar a:hover {
@@ -1152,6 +1157,10 @@ width: 50%;
         display: none;
     }
     
+    .select3 {
+        display: none;
+    }
+    
    
     
 }
@@ -1203,9 +1212,9 @@ width: 50%;
 }
     
     
-    .yues2 {
+    /* .yues2 {
        display: none;
-    }
+    } */
 
     .navHead ul {
         display: none;
@@ -1255,4 +1264,12 @@ width: 50%;
         font-size: 1rem;
     }
 
+    .jersey {
+    margin-bottom: 3rem;
+}
+    
+    .select2 {
+        display: none;
+    }
+    
 }
