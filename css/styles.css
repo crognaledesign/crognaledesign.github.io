@@ -700,6 +700,13 @@ body {
     margin-top: 1rem;
 }
 
+.logPaperWrite_two {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+
 .logPaperWrite a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -807,7 +814,7 @@ padding-bottom: 1.5em;
    display: block;
    font-family: 'Rubik', sans-serif;
    font-weight: 600;
-   line-height: 8rem;
+   line-height: 4rem;
  }
 
  .sidebar a:hover {
@@ -1270,6 +1277,11 @@ width: 50%;
     
     .select2 {
         display: none;
+    }
+    
+    .ducklogo {
+        width: 100%;
+        height: auto;
     }
     
 }
