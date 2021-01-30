@@ -696,7 +696,7 @@ body {
 .logPaperWrite {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-top: 1rem;
 }
 
@@ -704,7 +704,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+.logPaperWrite_three {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 4rem;
 }
 
 .logPaperWrite a{
@@ -910,7 +917,6 @@ width: 50%;
 }
 
 .PA_logo {
-    margin-top: 3rem;
     width: 100%;
     height: auto;
     margin-left: 1rem;
@@ -1286,6 +1292,10 @@ width: 50%;
     
     .logPaperWrite_two {
         display: none;
+    }
+    
+    .videos {
+        margin-bottom: 2rem;
     }
     
 }
