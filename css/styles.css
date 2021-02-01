@@ -38,8 +38,8 @@ body {
 .navHead .logo {
 	width: 3rem;
 	padding-top: 0.25rem;
-    
-}
+    }
+
 .row .col-md-3.col-md-offset- .logo {
 }
 .row .col-md-3.col-md-offset- .logo {
@@ -114,6 +114,8 @@ body {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+
 
 .navHead .current {
     color: #01FF8B;
