@@ -938,12 +938,19 @@ width: 50%;
 }
 
 .socials_youtube {
-    margin-left: 1rem;
+    margin-left: 0rem;
     width: 2rem;
     height: auto;
+} 
+
+.social_media {
+    padding-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
 }
-
-
 
 .plotArmorBanner .headBanner {
     margin-top: 0;
