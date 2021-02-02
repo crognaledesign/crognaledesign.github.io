@@ -34,6 +34,16 @@ body {
     height: auto;
 }
 
+.jersey_process {
+    width: 102%;
+    height: auto;
+}
+
+.jersey_process_mobile {
+    width: 100%;
+    height: auto;
+}
+
 
 .navHead .logo {
 	width: 3rem;
@@ -887,7 +897,14 @@ color: #01FF8B;
 
 footer p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.80rem;
+    font-size: 0.90rem;
+}
+
+footer .resume a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.90rem;
+    text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -1219,6 +1236,10 @@ width: 50%;
         display: none;
     }
     
+    .jersey_process_mobile {
+        display: none;
+    }
+    
    
     
 }
@@ -1350,4 +1371,8 @@ width: 50%;
     .logPaperWrite_four {
         margin-top: 3rem;
 }
+    
+    .jersey_process {
+        display: none;
+    }
 }
