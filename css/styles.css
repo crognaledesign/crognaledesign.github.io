@@ -15,12 +15,13 @@ html {
     } */
 
 body {
-    /* background-image: url(background.png); */
-    background-color: black;
+    background-image: url(glow.png);
+    background-blend-mode: overlay;
+    background-color: #323232;
     width: 100%;
     margin: auto;
     background-size: 100%;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,9 +139,22 @@ body {
     font-size: 3rem;
     text-align: left;
     line-height: 200%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 8rem;
     color: white;
+
+
+ 
+
+}
+
+.headerSubHead {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: left;
+    line-height: 3em;
+    color: white;
+    margin-bottom: 16rem;
 }
 
 .headerWork {
@@ -149,15 +163,22 @@ body {
     font-size: 1rem;
     text-align: left;
     line-height: 3em;
-    color: black;
+    color: white;
+}
+
+.hmu {
+    text-decoration: none;
+    color: white;
 }
 
 .story {
-    background-color: #F5F5F5;
+    /* background-image: url(background.png);
+    background-blend-mode: overlay; */
+    background-color: #141414;
     width: 100%;
     margin: 0px;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
 
 }
 
@@ -240,6 +261,7 @@ body {
     font-weight: 400;
     line-height: 2rem;
     margin-top: 1rem;
+    color: white;
 }
 
 .contentHeaderSub {
@@ -278,6 +300,16 @@ body {
     font-weight: 700;
     line-height: 2rem;
     margin-top: 1rem;
+    color: white;
+}
+
+.contentHeaderTitleIndex2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 1rem;
+    color: black;
 }
 
 .contentHeaderMobile {
@@ -420,6 +452,7 @@ body {
 .divider {
     margin: auto;
     width: 90%;
+    color: white;
 }
 
 /*
@@ -514,12 +547,12 @@ body {
 .yues, .yues2 {
     width: 100%;
     margin-left: 0px;
-    transition: transform .2s ease;
+    transition: transform .1s ease;
     padding-bottom: 0px;
 }
 
 .yues:hover, .yues2:hover {
-    transform: scale(0.95);
+    transform: scale(1.02);
 }
 
 .wallpaper {
@@ -688,7 +721,7 @@ body {
 
 .latestTitle {
     padding-top: 1rem;
-    padding-bottom: 0px;
+    padding-bottom: 2rem;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Rubik', sans-serif;
@@ -755,9 +788,22 @@ body {
     color: #4C00FF;
 }
 
+.logPaperWrite_four a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.logPaperWrite_four a:hover{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #4C00FF;
+}
+
 .ducklogo {
   width: auto;
   height: 13em;
+    margin-top: 2rem;
 }
 
 .banner {
@@ -778,6 +824,13 @@ body {
   width: 100%;
   height: auto;
   padding-top: 1em;
+padding-bottom: 1.5em;
+}
+
+.screensOverlay {
+  width: 100%;
+  height: auto;
+  padding-top: 4rem;
 padding-bottom: 1.5em;
 }
 
@@ -1276,7 +1329,13 @@ width: 50%;
     .header {
         font-size: 200%;
     }
+    .headerSubHead {
+        padding-top: 1rem;
+        line-height: 2rem;
+    }
 
+    
+    
     .story {
         margin: auto;
         /* padding-right: 800px; */
@@ -1360,6 +1419,7 @@ width: 50%;
     .ducklogo {
         width: 100%;
         height: auto;
+        margin-left: 0;
     }
     
     .logPaperWrite_two {
