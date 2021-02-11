@@ -823,14 +823,14 @@ body {
 .screens {
   width: 100%;
   height: auto;
-  padding-top: 1em;
+  padding-top: 1rem;
 padding-bottom: 1.5em;
 }
 
 .screensOverlay {
   width: 100%;
   height: auto;
-  padding-top: 4rem;
+  padding-top: 1rem;
 padding-bottom: 1.5em;
 }
 
