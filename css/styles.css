@@ -1034,7 +1034,7 @@ width: 50%;
     height: 0;
 }
 
-.videos iframe {
+.videos video {
     position: absolute;
     top: 0;
     left: 0;
@@ -1053,7 +1053,7 @@ width: 50%;
     height: 0;
 }
 
-.videos_two iframe {
+.videos_two video {
     position: absolute;
     top: 0;
     left: 0;
