@@ -15,16 +15,16 @@ html {
     } */
 
 body {
-    background-image: url(glow.png);
+    background-image: url(animated_bg.gif);
     background-blend-mode: overlay;
     background-color: #323232;
     width: 100%;
     margin: auto;
     background-size: 100%;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     overflow-x: hidden;
     height: auto;
 }
